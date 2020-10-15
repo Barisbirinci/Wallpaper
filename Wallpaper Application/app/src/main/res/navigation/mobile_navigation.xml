@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/photosFragment">
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.example.wallpaperapplication.fragments.PhotosFragment"
+        android:label="PhotosFragment"
+        tools:layout="@layout/fragment_photos"/>
+    <fragment
+        android:id="@+id/collectionsFragment"
+        android:name="com.example.wallpaperapplication.fragments.CollectionsFragment"
+        android:label="CollectionsFragment"
+        tools:layout="@layout/fragment_collections"/>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.wallpaperapplication.fragments.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"/>
+    <fragment
+        android:id="@+id/collectionFragment"
+        android:name="com.example.wallpaperapplication.fragments.CollectionFragment"
+        android:label="CollectionFragment"
+        tools:layout="@layout/fragment_collection"/>
+</navigation>
